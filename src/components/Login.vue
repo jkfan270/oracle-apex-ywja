@@ -12,7 +12,9 @@
 </template>
 
 <script>
-import * as THREE from 'three'
+//import * as THREE from 'three'
+
+
 import CLOUDS from 'vanta/src/vanta.clouds'
 
   export default {
@@ -28,20 +30,6 @@ import CLOUDS from 'vanta/src/vanta.clouds'
     })
   },
 
-    CLOUDS({
-      el: this.$refs.vantaRef,
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0xdec790,
-      backgroundColor: 0xc04393,
-      spacing: 12.00
-
-    }),
 
     beforeUnmount() {
     if(this.vantaEffect){
