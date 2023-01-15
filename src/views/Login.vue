@@ -13,7 +13,7 @@
     </div>
 
 
-    <div class="absolute bottom-0 right-0 h-16 w-16 ...">Scroll Down</div>
+    <div class="absolute bottom-0 right-0 h-16 w-16">Scroll Down</div>
 
 
   </div>
